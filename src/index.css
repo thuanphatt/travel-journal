@@ -1,13 +1,90 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Navbar */
+.navbar {
+  height: 55px;
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+.navbar__title {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+/* Main */
+.main__block {
+  padding: 36px 40px 0;
+  display: flex;
+  gap: 20px;
+}
+.main__block-img {
+  width: 125px;
+  height: 168px;
+}
+
+.location-icon {
+  width: 7px;
+  height: 10px;
+  margin: 0 4px 0 0;
+}
+
+.main__location-title {
+  color: #2b283a;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin: 0 12px 0 0;
+}
+.main__block-right {
+  margin-top: 20px;
+  max-width: 326px;
+}
+.main__block-right a {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  color: #918e9b;
+}
+.main__location-title {
+}
+.main__location-detail {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin: 8px 0;
+}
+
+.main__block-date {
+  display: block;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  margin: 7px 0 9px;
+
+  color: #2b283a;
+}
+
+.main__block-desc {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  margin: 9px 0 0;
+  color: #2b283a;
 }
